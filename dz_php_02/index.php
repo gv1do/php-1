@@ -30,7 +30,7 @@ $x = rand(0, 15);
 echo "Задание 2.<br>";
 
 switch ($x){
-    case 1: echo $x++ . PHP_EOL;
+    case 1: echo $x++ . " ";
     case 2: echo $x++ . PHP_EOL;
     case 3: echo $x++ . PHP_EOL;
     case 4: echo $x++ . PHP_EOL;
