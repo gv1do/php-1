@@ -1,0 +1,31 @@
+ul {
+    background: #eee;
+    padding: 10px 30px;
+    margin: 0;
+}
+li a{
+    color: #444444;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu > li a {
+    text-transform: uppercase;
+}
+.main-menu:hover .submenu {display: block;}
+.submenu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    left: 33%;
+    top: 5%;
+    z-index: 1;
+    padding: 1%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
